@@ -1,2 +1,2 @@
 # Michael Bean's Portfolio
-My portfolio page
+My portfolio home page
