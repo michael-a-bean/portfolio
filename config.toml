@@ -14,7 +14,7 @@ languageCode = "en-us"
   description = "Portfolio of projects by Michael Bean"
   copyright = "&copy;2023 Michael Bean"
   sidebarAbout = [
-    "I am a aspiring economist and data analyst."
+    "I am a aspiring data analyst with interests in Economics, GIS, Public Administration & Political Economy. "
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
