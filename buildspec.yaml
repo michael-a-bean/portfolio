@@ -1,0 +1,11 @@
+version: 0.2
+
+env:
+  variables: {}
+  parameter-store: {}
+
+phases:
+  install:
+    commands:
+    - echo Entered install phase.
+    - apt update -qq && apt upgrage -qq
