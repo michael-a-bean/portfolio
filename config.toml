@@ -1,5 +1,5 @@
 baseurl = "http://mb-porfolio-bucket.s3-website-us-west-1.amazonaws.com/"
-title = "Creative Portfolio"
+title = "Michael Bean"
 theme = "creative-portfolio"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -11,11 +11,10 @@ languageCode = "en-us"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
+  description = "Portfolio of projects by Michael Bean"
+  copyright = "&copy;2023 Michael Bean"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "I am a aspiring economist and data analyst."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
