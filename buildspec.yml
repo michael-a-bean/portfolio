@@ -9,7 +9,7 @@ phases:
     commands:
     - echo Entered install phase
     - apt-get update
-    - apt-get install hugo
+    - apt-get -y install hugo
 
   build:
     commands:
