@@ -1,11 +1,11 @@
-baseurl = "http://52.53.215.223/"
-title = "Creative portfolio"
+baseurl = "http://mb-porfolio-bucket.s3-website-us-west-1.amazonaws.com/"
+title = "Creative Portfolio"
 theme = "creative-portfolio"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+#disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+#googleAnalytics = ""
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
@@ -66,3 +66,30 @@ googleAnalytics = ""
   gitlab        = "full profile url in gitlab"
   youtube       = "full profile url in youtube"
   whatsapp      = "wa.me service link"
+
+[deployment]
+
+  [[deployment.targets]]
+  name = "aws-s3"
+  URL = "s3://mb-porfolio-bucket?region=us-west-1"
+
+  [[deployment.matchers]]
+    pattern = "^sitemap\\.xml$"
+    cacheControl = "public, s-maxage=604800, max-age=86400" #7d,1d
+    contentType = "application/xml"
+
+  [[deployment.matchers]]
+    pattern = "^.+\\.(css|js)$"
+    cacheControl = "public, immutable, max-age=31536000" #1y
+
+  [[deployment.matchers]]
+    pattern = "(?i)^.+_hu[0-9a-f]{32}_.+\\.(jpg|jpeg|gif|png|webp)$"
+    cacheControl = "public, immutable, max-age=31536000" #1y
+
+  [[deployment.matchers]]
+    pattern = "(?i)^.+\\.(jpg|jpeg|gif|png|webp|mp4|woff|woff2)$"
+    cacheControl = "public, s-maxage=7776000, max-age=604800" #90d,7d
+
+  [[deployment.matchers]]
+    pattern = "^.+\\.(html|xml|json|txt)$"
+    cacheControl = "public, s-maxage=604800, max-age=3600" #7d,1h

@@ -7,5 +7,16 @@ env:
 phases:
   install:
     commands:
-    - echo Entered install phase.
-    - apt update -qq && apt upgrage -qq
+    - echo Entered install phase
+    - apt install hugo
+
+  build:
+    commands:
+      - echo Entered build phase
+      - cd $CODEBUILD_SRC_DIR
+      - hugo
+      - hugo deploy
+  
+  post_build:
+    commands:
+      - echo Build complete
