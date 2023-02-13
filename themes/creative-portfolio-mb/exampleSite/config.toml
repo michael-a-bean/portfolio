@@ -1,20 +1,21 @@
-baseurl = "http://mb-porfolio-bucket.s3-website-us-west-1.amazonaws.com/"
-title = "Michael Bean"
-theme = "creative-portfolio-mb"
+baseurl = "https://example.org/"
+title = "Creative portfolio"
+theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "michaelbeanorg"
+disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-#googleAnalytics = ""
+googleAnalytics = ""
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Portfolio of projects by Michael Bean"
-  copyright = "&copy;2023 Michael Bean"
+  description = "Describe your website"
+  copyright = "&copy;2016 Your name or company"
   sidebarAbout = [
-    "I am a aspiring data analyst with interests in Economics, GIS, Public Administration & Political Economy. "
+    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
+    "Originally from Toronto, currently based in London."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -28,7 +29,7 @@ disqusShortname = "michaelbeanorg"
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "michael@michaelbean.org"
+  email = "you@yoursite.com"
 
     # Optional Matomo analytics (formerly piwik)
       # [params.analytics.matomo]
@@ -56,7 +57,7 @@ disqusShortname = "michaelbeanorg"
   [params.social]
   facebook      = "full page or profile url in facebook"
   googleplus    = "full profile url in googleplus"
-  email         = "michael@michaelbean.org"
+  email         = "email@example.com"
   twitter       = "full profile url in twitter"
   linkedin      = "full profile url in linkedin"
   stackoverflow = "full profile url in stackoverflow"
@@ -65,30 +66,3 @@ disqusShortname = "michaelbeanorg"
   gitlab        = "full profile url in gitlab"
   youtube       = "full profile url in youtube"
   whatsapp      = "wa.me service link"
-
-[deployment]
-
-  [[deployment.targets]]
-  name = "aws-s3"
-  URL = "s3://mb-porfolio-bucket?region=us-west-1"
-
-  [[deployment.matchers]]
-    pattern = "^sitemap\\.xml$"
-    cacheControl = "public, s-maxage=604800, max-age=86400" #7d,1d
-    contentType = "application/xml"
-
-  [[deployment.matchers]]
-    pattern = "^.+\\.(css|js)$"
-    cacheControl = "public, immutable, max-age=31536000" #1y
-
-  [[deployment.matchers]]
-    pattern = "(?i)^.+_hu[0-9a-f]{32}_.+\\.(jpg|jpeg|gif|png|webp)$"
-    cacheControl = "public, immutable, max-age=31536000" #1y
-
-  [[deployment.matchers]]
-    pattern = "(?i)^.+\\.(jpg|jpeg|gif|png|webp|mp4|woff|woff2)$"
-    cacheControl = "public, s-maxage=7776000, max-age=604800" #90d,7d
-
-  [[deployment.matchers]]
-    pattern = "^.+\\.(html|xml|json|txt)$"
-    cacheControl = "public, s-maxage=604800, max-age=3600" #7d,1h
