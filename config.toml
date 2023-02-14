@@ -1,4 +1,4 @@
-baseurl = "http://mb-porfolio-bucket.s3-website-us-west-1.amazonaws.com/"
+baseurl = "https://michaelbean.org"
 title = "Michael Bean"
 theme = "creative-portfolio-mb"
 languageCode = "en-us"
@@ -59,7 +59,7 @@ disqusShortname = "michaelbeanorg"
   email         = "michael@michaelbean.org"
   twitter       = "full profile url in twitter"
   linkedin      = "https://www.linkedin.com/in/michael-bean-9a05b974/"
-  stackoverflow = "full profile url in stackoverflow"
+  stackoverflow = "https://stackoverflow.com/users/21208095/michael-a-bean"
   instagram     = "full profile url in instagram"
   github        = "https://github.com/michael-a-bean"
   gitlab        = "full profile url in gitlab"
@@ -70,7 +70,7 @@ disqusShortname = "michaelbeanorg"
 
   [[deployment.targets]]
   name = "aws-s3"
-  URL = "s3://mb-porfolio-bucket?region=us-west-1"
+  URL = "s3://michaelbean.org?region=us-west-1"
 
   [[deployment.matchers]]
     pattern = "^sitemap\\.xml$"
