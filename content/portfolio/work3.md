@@ -1,18 +1,18 @@
 +++
-image = "img/portfolio/gravity-paper.jpg"
+image = "img/portfolio/SanFernando.jpg"
 showonlyimage = false
-date = "2016-11-05T19:44:32+05:30"
-title = "Name of the work 3"
-draft = true
+date = "2023-09-17T19:44:32+05:30"
+title = "Green Spaces, Temperature and Pollution in the San Fernando Valley"
+draft = false
 weight = 2
 +++
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
+Green Spaces, Temperature and Pollution in the San Fernando Valley
 <!--more-->
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+Starting in the mid 20th century, the San Fernando Valley in Southern California began to transition from a mostly agricultural center to what is now one of the countries largest suburban areas.
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+Although farmland has mostly disappeared, I wanted to see what remained of any green space in the valley and whether any relationships existed between those spaces, the temperature throughout the valley and areas of unhealthy pollution.
 
 1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 2. Aliquam tincidunt mauris eu risus.
