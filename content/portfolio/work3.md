@@ -14,6 +14,24 @@ Although farmland has mostly disappeared, I wanted to see what remained of any g
 
 ## Initial Data Sets
 
+![LA County Green Spaces](/img/portfolio/green.jpg)
+
+Name: Countywide Parks and Open Space
+Origin: Los Angeles GeoHub
+Format: Shapefile
+
+![California PM2.5 Levels by Census Block](/img/portfolio/california.jpg)
+
+Name: CalEnviroScreen 4.0 Data
+Origin: California OEHHA
+Format: .gdb Geodatabase
+
+![North LA County Temperatures](/img/portfolio/temp.jpg)
+
+Name: Custom Global Summary of The Year
+Origin: NOAA
+Format: .CSV File
+
 ## Additional Data
 
 I also needed to establish the boundary of the San Fernando Valley to narrow down all the data to my area of study.
