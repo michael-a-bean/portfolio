@@ -17,19 +17,25 @@ Although farmland has mostly disappeared, I wanted to see what remained of any g
 ![LA County Green Spaces](/img/portfolio/green.jpg)
 
 **Name:** Countywide Parks and Open Space
+
 **Origin:** [Los Angeles GeoHub](https://geohub.lacity.org/)
+
 **Format:** Shapefile
 
 ![California PM2.5 Levels by Census Block](/img/portfolio/california.jpg)
 
 **Name:** CalEnviroScreen 4.0 Data
+
 **Origin:** [California OEHHA](https://oehha.ca.gov/)
+
 **Format:** .gdb Geodatabase
 
-![North LA County Temperatures](/img/portfolio/temp.jpg)
+![North LA County Temperatures](/img/portfolio/avgTemp.jpg)
 
 **Name:** Custom Global Summary of The Year
+
 **Origin:** [NOAA](https://www.noaa.gov/)
+
 **Format:** .CSV File
 
 ## Additional Data
