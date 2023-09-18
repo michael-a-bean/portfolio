@@ -30,7 +30,7 @@ The temperature .CSV data was plotted using XY Point Data. Interpolate was then 
 ### Clip
 The temperature raster, Calenviroscan pollution, and the Los Angeles green spaces layers were all clipped to the San Fernando Valley layer in separate steps, creating new layers with only the information for the area of study.
 
-![Final San Fernando Valley Map](/portfolio/static/img/portfolio/finalMap.jpg)
+![Final San Fernando Valley Map](/img/portfolio/finalMap.jpg)
 
 
 ## Analysis
