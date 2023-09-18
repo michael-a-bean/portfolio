@@ -23,15 +23,17 @@ I used the Census Data by Blocks for 2020 data set from the County of Los Angele
 * I then manually selected the cities I wanted to include, and created a new layer from this selection
 * Finally, I used dissolve boundaries on the new layer to create the outline of the San Fernando Valley
 
+![LA County Census Blocks](/img/portfolio/lacounty.jpg) 
+![San Fernando Boundary](/img/portfolio/SanFernando.jpg)
+
 ## Geoprocessing
 
-### Interpolate
+#### Interpolate
 The temperature .CSV data was plotted using XY Point Data. Interpolate was then used to generate a raster temperature map using the Average High Temperature for each weather station point.
-### Clip
+#### Clip
 The temperature raster, Calenviroscan pollution, and the Los Angeles green spaces layers were all clipped to the San Fernando Valley layer in separate steps, creating new layers with only the information for the area of study.
 
 ![Final San Fernando Valley Map](/img/portfolio/finalMap.jpg)
-
 
 ## Analysis
 * Larger areas of green space mostly correspond to lower temperature areas. These areas tend to be along the outskirts of the valley leading into the foothill areas. The notable exception is a large golf course in the middle of a higher temperature
