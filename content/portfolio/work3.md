@@ -7,25 +7,32 @@ draft = false
 weight = 2
 +++
 
-Green Spaces, Temperature and Pollution in the San Fernando Valley
-<!--more-->
-
 Starting in the mid 20th century, the San Fernando Valley in Southern California began to transition from a mostly agricultural center to what is now one of the countries largest suburban areas.
+<!--more-->
 
 Although farmland has mostly disappeared, I wanted to see what remained of any green space in the valley and whether any relationships existed between those spaces, the temperature throughout the valley and areas of unhealthy pollution.
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+## Initial Data Sets
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+## Additional Data
 
-## Header Level 2
+I also needed to establish the boundary of the San Fernando Valley to narrow down all the data to my area of study.
+I used the Census Data by Blocks for 2020 data set from the County of Los Angeles Open Data Portal and modified it by doing the following:
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+* I used dissolve to merge census blocks into cities
+* I then manually selected the cities I wanted to include, and created a new layer from this selection
+* Finally, I used dissolve boundaries on the new layer to create the outline of the San Fernando Valley
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+## Geoprocessing
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+### Interpolate
+The temperature .CSV data was plotted using XY Point Data. Interpolate was then used to generate a raster temperature map using the Average High Temperature for each weather station point.
+### Clip
+The temperature raster, Calenviroscan pollution, and the Los Angeles green spaces layers were all clipped to the San Fernando Valley layer in separate steps, creating new layers with only the information for the area of study.
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+![Final San Fernando Valley Map](/portfolio/static/img/portfolio/finalMap.jpg)
+
+
+## Analysis
+* Larger areas of green space mostly correspond to lower temperature areas. These areas tend to be along the outskirts of the valley leading into the foothill areas. The notable exception is a large golf course in the middle of a higher temperature
+* The higher temperature areas are mostly near the center of the valley along the 405 freeway and the Van Nuys Airport. Higher levels of pollution are also seen in this area but spreads to the west, not fully correlating with the higher temperatures seen to the east of this center area.
