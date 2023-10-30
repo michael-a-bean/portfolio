@@ -60,5 +60,7 @@ The temperature raster, Calenviroscan pollution, and the Los Angeles green space
 ![Final San Fernando Valley Map](/img/portfolio/finalMap.jpg)
 
 ## Analysis
-* Larger areas of green space mostly correspond to lower temperature areas. These areas tend to be along the outskirts of the valley leading into the foothill areas. The notable exception is a large golf course in the middle of a higher temperature
-* The higher temperature areas are mostly near the center of the valley along the 405 freeway and the Van Nuys Airport. Higher levels of pollution are also seen in this area but spreads to the west, not fully correlating with the higher temperatures seen to the east of this center area.
+* Larger areas of green space mostly correspond to lower temperature areas. These areas tend to be along the outskirts of the valley leading into the foothill areas. The notable exception is a large golf course in the middle of a high temperature zone.
+* The higher temperature areas are mostly near the center of the valley along the 405 freeway and near the Van Nuys Airport. Higher levels of pollution are also seen in this area but spreads to the west, not fully correlating with the higher temperatures seen to the east of this center area.
+
+All maps were created using ArcGis Pro.
