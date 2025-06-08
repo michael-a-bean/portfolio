@@ -1,11 +1,9 @@
 +++
-title = "About"
+title = "Michael Bean"
 date = 2025-06-08
 +++
 
-# Michael Bean
-
-📍 1537 W. 7th St. Apt 216, Upland, CA 91786  
+---
 📧 [michael@michaelbean.org](mailto:michael@michaelbean.org)  
 🌐 [michaelbean.org](https://michaelbean.org)  
 💼 [LinkedIn](https://www.linkedin.com/in/michael-bean-9a05b974)
