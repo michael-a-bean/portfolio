@@ -4,7 +4,7 @@ showonlyimage = false
 draft = false
 image = "img/portfolio/project_1.jpg"
 date = 2025-06-08
-weight = 0
+weight = 3
 +++
 
 In additon to highllighting specific projects, this portfolio website is also a live demonstration of my skills in DevOps, cloud automation, and reproducible publishing workflows. <!--more--> It is generated using [**Hugo**](https://gohugo.io/), a fast static site generator written in Go, and is designed to be fully version-controlled, reproducible, and automatically deployed via a cloud-native CI/CD pipeline.

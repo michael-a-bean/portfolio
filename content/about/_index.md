@@ -64,7 +64,7 @@ _Graduated June 2021_
 
 ### Selected Projects
 
-#### Agent-Based Model of Commodity Price Shock Mitigation  
+#### [Agent-Based Model of Commodity Price Shock Mitigation](https://michaelbean.org/html/enterprise.html)  
 Built NetLogo simulation modeling 100 heterogeneous households with Cobb-Douglas production and Ornstein–Uhlenbeck price shocks. Ran 30,000 BehaviorSpace experiments, analyzed outputs with penalized GAMs and k-means clustering to evaluate policy impacts on wealth and inequality.
 
 #### Household Resilience to Commodity Price Shocks  
