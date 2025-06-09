@@ -14,7 +14,7 @@ disqusShortname = "michaelbeanorg"
   description = "Portfolio of projects by Michael Bean"
   copyright = "&copy;2023 Michael Bean"
   sidebarAbout = [
-    "I am a data analyst with interests in Economics, GIS, Public Administration & Political Economy. "
+    "Data scientist focused on economics, GIS, and public policy. I design data pipelines, predictive models, and interactive tools that inform strategy and drive measurable impact."
   ]
   # Contact page
      # Since this template is static, test the contact form uses www.formspree.io as a
