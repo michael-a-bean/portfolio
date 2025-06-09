@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<style>
+  .content-column {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .embedded-html-content {
+    padding: 2rem;
+    background: #fff;
+    width: 100%;
+  }
+
+  .embedded-html-content h1:first-child {
+    margin-top: 0;
+  }
+</style>
+
+<div class="embedded-html-content">
+  {{ with readFile .Params.embed }}
+    {{ . | safeHTML }}
+  {{ else }}
+    <p style="color:red;">Could not load embedded HTML file: <code>{{ .Params.embed }}</code></p>
+  {{ end }}
+</div>
+
+{{ end }}

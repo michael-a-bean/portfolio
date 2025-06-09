@@ -92,3 +92,8 @@ disqusShortname = "michaelbeanorg"
   [[deployment.matchers]]
     pattern = "^.+\\.(html|xml|json|txt)$"
     cacheControl = "public, s-maxage=604800, max-age=3600" #7d,1h
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

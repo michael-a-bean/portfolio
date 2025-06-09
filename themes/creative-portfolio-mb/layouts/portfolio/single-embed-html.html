@@ -1,0 +1,8 @@
+{{ define "main" }}
+  {{ $file := .Params.embed }}
+  {{ with readFile $file }}
+    {{ . | safeHTML }}
+  {{ else }}
+    <p style="color:red;">Could not load embedded file: <code>{{ $file }}</code></p>
+  {{ end }}
+{{ end }}
