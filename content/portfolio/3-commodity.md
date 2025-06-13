@@ -9,3 +9,4 @@ weight = 1
 showonlyimage = false
 comments = false
 +++
+/home/michael/website/portfolio/static
