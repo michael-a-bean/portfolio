@@ -12,17 +12,18 @@ date = 2025-06-08
 
 ### Professional Summary
 
-Data scientist and business-operations leader with an M.S. in Applied Data Science (4.0 GPA) and over 10 years of retail leadership. I build end-to-end ETL pipelines, predictive analytics and machine-learning models, and interactive dashboards using R, Python and Power BI/Tableau — solutions that have lifted revenue 38%, cut process inefficiencies 50%, and trimmed ordering costs 20%. Skilled in statistical learning, econometrics, agent-based simulation and supply-chain optimization, I translate analysis into executive-ready insights able to guide strategy and policy. Seeking business analyst, data scientist or research analyst roles where advanced analytics and data-driven storytelling can unlock measurable stakeholder value.
+Data analyst and business-operations leader with an M.S. in Applied Data Science and over 10 years retail leadership experience. I build end-to-end ETL pipelines, predictive-analytics/machine-learning models, and interactive dashboards using R, Python and Power BI/Tableau. These solutions have increased revenue, cut process inefficiencies, and trimmed ordering costs. Skilled in statistical learning, econometrics, agent-based simulation and supply-chain optimization, I translate analyses into executive-ready insights, able to guide strategy and policy. Seeking business analyst, data scientist or research analyst roles where advanced analytics and data-driven storytelling can unlock measurable stakeholder value.
 
 ---
 
 ### Technical Skills
 
-- **Languages & Tools:** R (tidyverse, tidymodels), Python, SQL, NetLogo  
-- **Data Engineering:** Git/GitHub Actions, DBI (Postgres, SQLite, DuckDB), Excel  
-- **Visualization & BI:** Power BI, Tableau, ggplot2, Quarto/R Markdown, ArcGIS  
-- **Statistical & ML Methods:** Linear/logistic regression, decision trees, random forests, cross-validation, LASSO/Ridge, elastic net  
-- **Advanced Analytics:** CART, GBM, XGBoost, SVMs (linear + RBF), k-means, DBSCAN, ensemble learning, agent-based modeling (NetLogo), sensitivity analysis
+- **Programming & Machine Learning:** R (tidyverse, tidymodels), Python, SQL, NetLogo
+- **Data Engineering:** Git/GitHub Actions, DBI (Postgres, SQLite, DuckDB), Excel
+- **Visualization & BI:** Power BI, Tableau, ggplot2, Quarto/R Markdown, ArcGIS
+- **Statistical & ML Methods:** Linear/logistic regression, fixed-effects models, decision trees, random forests, cross-validation (k-fold, bootstrap), LASSO/Ridge, elastic net
+- **Advanced Analytics:** GBM, XGBoost, SVMs (linear + RBF), k-means, DBSCAN, ensemble methods (bagging, stacking), agent-based modeling, scenario & sensitivity analysis
+
 
 ---
 
