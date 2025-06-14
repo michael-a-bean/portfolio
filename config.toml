@@ -14,7 +14,7 @@ disqusShortname = "michaelbeanorg"
   description = "Portfolio of projects by Michael Bean"
   copyright = "&copy;2023 Michael Bean"
   sidebarAbout = [
-    "Data scientist and business operations leader with an M.S. in Applied Data Science and 10+ years of retail leadership experience. I build predictive models, ETL pipelines, and interactive dashboards using R, Python, and data visualization tools; solutions that have increased revenue and operational efficiency. My work spans retail optimization to research on economic resilience, translating complex analyses into actionable insights that drive strategy and measurable impact."
+    "Data scientist and business operations leader with an M.S. in Applied Data Science and 10+ years of retail leadership experience. I build predictive models, ETL pipelines, and interactive dashboards using R, Python, and various data-visualization tools. My work spans retail optimization to research on economic resilience, translating complex analyses into actionable insights that drive strategy."
   ]
   # Contact page
      # Since this template is static, test the contact form uses www.formspree.io as a
