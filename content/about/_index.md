@@ -33,20 +33,20 @@ Data analyst and business-operations leader with an M.S. in Applied Data Science
 **Business Operations & Analytics Manager**  
 _Sep. 2021 – Present_
 
-- Led strategic planning & staff development, growing revenue 38% (2023–2024)
-- Developed standardized policy and workflow systems, improving process efficiency by 50%
-- Built automated Python/GitHub Actions data pipelines reducing payroll on orders by 20%
-- Designed inventory optimization model using ROI and Return-on-Assets metrics
-- Automated web scraping for competitor analysis, saving 20+ hours/month
+- Led data‑backed strategic planning & staff development, driving year-over-year revenue growth exceeding 12% for three consecutive years (38% from 2023 to 2024)
+- Developed standardized policy documents and processes, increasing employee efficiency and reducing payroll costs associated with rework by over 50%
+- Engineered automated data-delivery pipeline reducing payroll expenditure on orders by over 20% using Python and GitHub Actions
+- Designed an inventory‑optimization model driven by Return‑on‑Assets & ROI thresholds, reducing over‑stock while maintaining 95% item availability
+- Implemented web scraping automation pipeline in Python, saving over 20 hours monthly in pricing research and competitive analysis
 
 #### Barnes & Noble Booksellers, Santa Clarita, CA  
 **Sales & Inventory Manager / Lead Bookseller**  
 _Jun. 2019 – Aug. 2021_
 
-- Implemented district-leading visual merchandising strategy
-- Led inventory analytics to improve replenishment and reduce shrinkage
-- Supervised 20+ employees, oversaw daily operations and scheduling
-- Used POS and sales data to optimize merchandising and drive revenue growth
+- Drove innovative visual merchandising strategy, transforming the location into the district's benchmark store for layout and product presentation
+- Managed end‑to‑end inventory planning using POS sales analytics to optimize stock levels, improve replenishment accuracy, and minimize shrinkage
+- Supervised a team of over 20 front‑line employees: owning daily operations, customer‑service standards, and Manager‑on‑Duty responsibilities
+- Analyzed sales data and customer behavior patterns to inform merchandising decisions and drive revenue optimization
 
 ---
 
@@ -66,13 +66,14 @@ _Graduated June 2021_
 ### Selected Projects
 
 #### [Agent-Based Model of Commodity Price Shock Mitigation](https://michaelbean.org/html/enterprise.html)  
-Built NetLogo simulation modeling 100 heterogeneous households with Cobb-Douglas production and Ornstein–Uhlenbeck price shocks. Ran 30,000 BehaviorSpace experiments, analyzed outputs with penalized GAMs and k-means clustering to evaluate policy impacts on wealth and inequality.
+Built NetLogo simulation modeling 100 heterogeneous households with Cobb Douglas production and Ornstein Uhlenbeck price shocks. Executed BehaviorSpace runs and analyzed outputs with penalized GAMs, Pareto frontier optimization, and k-means clustering to assess the effects of policy-based changes to credit, interest rate, and volatility on wealth generation and inequality.
+
 
 #### [Household Resilience to Commodity Price Shocks](https://michaelbean.org/html/commodity.html)   
-Created volatility-weighted exposure and shock indices using LSMS-ISA panel data (Ethiopia) and global commodity prices. Applied Driscoll–Kraay two-way fixed effects regression to show that forest cover and agroforestry buffer household food security against price shocks.
+Engineered volatility weighted exposure and shock indices for Ethiopian households using LSMS-ISA panel data (2010-2016) and a panel of globally-traded commodity prices. Applied Driscoll-Kraay two way fixed effects regression analysis showing forest cover/agroforestry practice buffer household consumption and food security against negative price shocks.
 
 #### Agricultural Practices & Price Shocks in Ethiopian Coffee  
-Analyzed panel data from coffee farming households using elastic net ensembles (RF, GBM, XGBoost) and Driscoll–Kraay models to evaluate how rotation, fertilizer, credit access, and extension services mediate consumption response to commodity price volatility.
+Analyzed panel observations of coffee farming households using Driscoll–Kraay TWFE and an stacking ensemble using elastic-net regularization (Random Forest, GBM, XGBoost) to quantify how crop rotation, fertilizer application, agricultural extension services, and credit access mediate household consumption responses to commodity price volatility.
 
 ---
 
