@@ -11,10 +11,10 @@ disqusShortname = "michaelbeanorg"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "1920s"
-  description = "Portfolio of projects by Michael Bean"
-  copyright = "&copy;2023 Michael Bean"
+  description = "Michael Bean is a quantitative analyst working on household responses to economic shocks, simulation models, and data tools for business operations."
+  copyright = "&copy;{year} Michael Bean"
   sidebarAbout = [
-    "Data scientist and business operations leader with an M.S. in Applied Data Science and 10+ years of retail leadership experience. I build predictive models, ETL pipelines, and interactive dashboards using R, Python, and various data-visualization tools. My work spans retail optimization to research on economic resilience, translating complex analyses into actionable insights that drive strategy."
+    "I am interested in how people and organizations make decisions and respond to change, particularly how households manage economic uncertainty and businesses plan their operations. I analyze data, build models, and develop tools for research and business operations."
   ]
   # Contact page
      # Since this template is static, test the contact form uses www.formspree.io as a

@@ -7,18 +7,18 @@ date = 2025-06-08
 weight = 3
 +++
 
-In additon to highllighting specific projects, this portfolio website is also a live demonstration of my skills in DevOps, cloud automation, and reproducible publishing workflows. <!--more--> It is generated using [**Hugo**](https://gohugo.io/), a fast static site generator written in Go, and is designed to be fully version-controlled, reproducible, and automatically deployed via a cloud-native CI/CD pipeline.
+I built this portfolio with [Hugo](https://gohugo.io/) and automated its deployment with AWS CodeBuild, Amazon S3, and CloudFront. <!--more--> The site’s content, configuration, theme, and assets are tracked in Git. A push to `main` triggers the build and deployment process.
 
 ---
 
 ### Project at a Glance
 
-This site pipeline demonstrates:
+The site uses:
 
-- **Infrastructure-as-code and CI/CD** using AWS CodeBuild, IAM, and GitHub
-- **Fully automated deployment** of a static site to a CDN-backed global endpoint
-- **Content-driven engineering** using Hugo and modular markdown structures
-- **Security-aware design** with scoped IAM roles and reproducible builds
+- Hugo content files and templates
+- Git and GitHub for version control
+- AWS CodeBuild for deployment to Amazon S3
+- CloudFront for content delivery and IAM for deployment permissions
 
 ---
 
@@ -42,11 +42,11 @@ This site pipeline demonstrates:
   - Installing Hugo
   - Building the static site with `hugo`
   - Deploying the site to an [Amazon S3](https://aws.amazon.com/s3/) bucket configured for static website hosting
-  - Invalidating the [CloudFront](https://aws.amazon.com/cloudfront/) cache to ensure instant global propagation of updates
+  - Invalidating the [CloudFront](https://aws.amazon.com/cloudfront/) cache to refresh cached content after deployment
 
 #### 4. Secure & Automated Delivery
 
-- Deployment credentials are scoped via IAM to permit only S3 and CloudFront actions
+- Deployment permissions are managed through IAM
 - AWS CLI is optionally configured locally to allow manual `hugo deploy` overrides
 - Assets are delivered over HTTPS via CloudFront with long-term caching policies defined in `config.toml`
 

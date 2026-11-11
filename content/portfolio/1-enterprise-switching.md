@@ -2,7 +2,7 @@
 title = "Mitigating Inequality Under Commodity-Price Shocks"
 link = "/html/enterprise.html"
 image = "img/portfolio/fig-gini-wealth-1.png"
-description = "Agent-based model of household responses to commodity price shocks, simulating 100 heterogeneous agents with Cobb–Douglas production. Uses Ornstein–Uhlenbeck price dynamics, with policy sensitivity analysis via penalized GAMs and k-means clustering to evaluate impacts on inequality and wealth accumulation."
+description = "I built a NetLogo model of 100 households to examine how commodity prices and credit conditions affect enterprise participation, wealth, and inequality. Subsequent review identified accounting and decision-rule inconsistencies; the Current Research page describes the revisions and proposed direction."
 date = 2025-06-08
 draft = false
 weight = 1

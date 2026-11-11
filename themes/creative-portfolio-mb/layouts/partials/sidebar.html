@@ -14,7 +14,7 @@
     <div class="copyright">
       <p class="credit">
         {{ with .Site.Params.copyright }}
-          {{ . | safeHTML }} |
+          {{ replace . "{year}" (now.Format "2006") | safeHTML }} |
         {{ end }}
         {{ partial "attribution.html" . }}
       </p>
