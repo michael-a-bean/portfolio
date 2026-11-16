@@ -1,7 +1,7 @@
 +++
 title = "Michael Bean"
 date = 2025-06-08
-lastmod = 2026-11-11
+lastmod = 2026-11-16
 +++
 
 ---
@@ -70,14 +70,14 @@ _Graduated June 2021_
 ### Selected Projects
 
 #### [Agent-Based Model of Commodity Price Shock Mitigation](https://michaelbean.org/html/enterprise.html)  
-I built a NetLogo simulation of 100 heterogeneous households using Cobb–Douglas production functions and an Ornstein–Uhlenbeck process for commodity prices. I ran simulation experiments in BehaviorSpace and analyzed the results using penalized generalized additive models, Pareto frontier analysis, and k-means clustering. The analysis examined how credit access, interest rates, and price volatility affected wealth accumulation and inequality within the model. Subsequent review identified inconsistencies in borrowing costs, resource allocation, and wealth accounting that limit interpretation of the original results. I have revised the software and propose developing a model with explicit household budgets and local customer demand, to be assessed against simpler analytical benchmarks.
+I built a NetLogo simulation of 100 heterogeneous households using Cobb–Douglas production functions and an Ornstein–Uhlenbeck process for commodity prices. I ran simulation experiments in BehaviorSpace and analyzed the results using penalized generalized additive models, Pareto frontier analysis, and k-means clustering. The analysis examined how credit access, interest rates, and price volatility affected wealth accumulation and inequality within the model. Subsequent review identified inconsistencies in borrowing costs, resource allocation, and wealth accounting that limit interpretation of the original results. The current rebuild requires a new economic specification, with household decision equations, budget constraints, and local market demand, followed by implementation and verification against analytical benchmarks.
 
 
 #### [Household Resilience to Commodity Price Shocks](https://michaelbean.org/html/commodity.html)   
-I constructed volatility-weighted exposure and shock indices for Ethiopian households using Living Standards Measurement Study–Integrated Surveys on Agriculture (LSMS-ISA) panel data from 2010–2016 and global commodity prices. I used two-way fixed-effects models with Driscoll–Kraay standard errors to examine whether forest cover was associated with differences in household consumption responses to negative price shocks. Review identified inconsistent crop classifications and unmatched geographic records, while the use of forest cover as a proxy for agroforestry and contemporaneous crop shares to measure exposure weakened interpretation. The survey rebuild addresses these definition and matching problems, while the proposed next study would distinguish dependence on coffee receipts from land-based exposure before assessing consumption or coping responses.
+In this later paper, I constructed volatility-weighted exposure and shock indices for Ethiopian households using Living Standards Measurement Study–Integrated Surveys on Agriculture (LSMS-ISA) panel data from 2010–2016 and global commodity prices. I used two-way fixed-effects models with Driscoll–Kraay standard errors to examine whether forest cover was associated with differences in household consumption responses to negative price shocks. Review identified inconsistent crop classifications and unmatched geographic records, while the use of forest cover as a proxy for agroforestry and contemporaneous crop shares to measure exposure weakened interpretation. The survey rebuild addresses these definition and matching problems, while the proposed next study would distinguish dependence on coffee receipts from land-based exposure before assessing consumption or coping responses.
 
 #### Agricultural Practices & Price Shocks in Ethiopian Coffee  
-I analyzed panel data on Ethiopian coffee-farming households using two-way fixed-effects models with Driscoll–Kraay standard errors and a stacked ensemble of random forest, gradient boosting, and XGBoost models with elastic-net regularization. I examined the relationships among agricultural practices, credit access, commodity prices, and household consumption. Reassessment identified concerns about practice classifications and survey-data construction, and the predictive results do not establish that adopting a practice protects consumption from price shocks. Further work will require documented practice definitions and audited survey joins, with predictive performance assessed separately from evidence of causal effects.
+In an earlier, separate paper, I analyzed panel data on Ethiopian coffee-farming households using two-way fixed-effects models with Driscoll–Kraay standard errors and a stacked ensemble of random forest, gradient boosting, and XGBoost models with elastic-net regularization. I examined the relationships among agricultural practices, credit access, commodity prices, and household consumption. Reassessment identified concerns about practice classifications and survey-data construction, and the predictive results do not identify causal effects of agricultural practices on consumption during price shocks. Further work will require documented practice definitions and audited survey joins, with predictive performance evaluated separately from causal identification.
 
 ---
 

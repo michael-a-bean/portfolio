@@ -14,7 +14,7 @@ disqusShortname = "michaelbeanorg"
   description = "Michael Bean is a quantitative analyst working on household responses to economic shocks, simulation models, and data tools for business operations."
   copyright = "&copy;{year} Michael Bean"
   sidebarAbout = [
-    "I am interested in how people and organizations make decisions and respond to change, particularly how households manage economic uncertainty and businesses plan their operations. I analyze data, build models, and develop tools for research and business operations."
+    "My experience spans business operations, quantitative analysis, and graduate research using household survey data and simulation. I build data pipelines, predictive models, and inventory planning tools. My interests include household livelihoods and the resilience of food systems under climatic and technological change."
   ]
   # Contact page
      # Since this template is static, test the contact form uses www.formspree.io as a

@@ -2,7 +2,7 @@
 title = "Understanding Household Resilience to Commodity Price Shocks"
 link = "/html/commodity.html"
 image = "img/portfolio/fig-residuals-qq-plot-1.png"
-description = "I used Ethiopian household panel data to examine whether forest cover was associated with differences in consumption responses to commodity-price shocks. The Current Research page explains the data-construction and measurement concerns identified in review and the proposed next study."
+description = "This later report examines forest cover, crop-based price exposure, and household consumption in Ethiopia. It builds on an earlier, separate study of coffee farmers. Subsequent review identified data-construction and measurement problems, which inform my current work."
 date = 2025-06-08
 draft = false
 weight = 1
